@@ -38,7 +38,7 @@ python train.py \
     --target-lang en \
     --batch-size 64 \
     --arch transformer \
-    --max-epoch 7 \
+    --max-epoch 3 \
     --log-file cz-en/logs/train.log \
     --save-dir cz-en/checkpoints/ \
     --ignore-checkpoints \
