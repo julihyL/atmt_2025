@@ -1,4 +1,3 @@
-cat > _only_translate.sh  << EOF
 #!/usr/bin/bash -l
 #SBATCH --partition teaching
 #SBATCH --time=0:35:0
@@ -22,4 +21,4 @@ python translate.py \
     --checkpoint-path cz-en/checkpoints/checkpoint_best.pt \
     --output cz-en/output/output.txt \
     --max-len 300
-EOF
+
